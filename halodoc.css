@@ -23,7 +23,6 @@ margin-top: 70px;
 display: flex;
 justify-content: space-between;
 margin: auto;
-position: relative;
 }
  .navbar .nav-wrapper{
     max-width: 1500px;
@@ -174,7 +173,21 @@ position: relative;
     font-family: var(--heading-font);
     font-weight: 400;
     font-size: 15px;
-    color: #101C45;
+    color: var(--main-color);
+}
+.row3-explain{
+    background-color:#9BEAE0;
+    width: 430px;
+    height: 900px;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 5px;
+    clip-path: polygon(25% 0%, 100% 0%, 76% 100%, 0 100%);
+}
+.row3-explain img{
+    text-align: center;
+    margin-left: 30px;
 }
 /* footer start */
 
