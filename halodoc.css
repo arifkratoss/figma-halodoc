@@ -23,29 +23,35 @@ margin-top: 70px;
 display: flex;
 justify-content: space-between;
 margin: auto;
+position: relative;
 }
-.nav-wrapper{
+ .navbar .nav-wrapper{
     max-width: 1500px;
     display: flex;
     gap: 100px;
     align-items: center;
     text-align: center;
-
 }
 .logo-docter{
     display: flex;
-    gap: 40px;
-    background-color: var(--main-color);
+    gap: 20px;
     width: 300px;
+    height: 90px;
+    align-items: center;
+    margin: auto;
+    margin-left: 80px;
+
 }
  .nav-wrapper .logo-docter img{
-    font-size: 50px;
-    margin: auto;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: center;
+    width: 70px;
+    border-radius: 20px;
 }
-
+.nav-wrapper .logo-docter p{
+    font-size: 30px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: var(--main-color);
+}
 
 .menu .menu-wrapper{
     display: flex;
@@ -137,8 +143,9 @@ margin: auto;
     position: relative;
     width: 600px;
     height: 300px;
-    border-radius: 8px var;
+    border-radius: 20px ;
     margin-top: 90px;
+    background-color: rgba(75, 70, 70, 0.154);
 }
 .row2-explain .img-profile{
     display: flex;
